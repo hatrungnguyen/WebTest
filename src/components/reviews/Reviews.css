@@ -1,0 +1,124 @@
+/* Container to hold both movie details and review form in two columns */
+.review-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 20px;
+}
+
+/* Movie Details - Left Column */
+.movie-details {
+  width: 40%; /* Adjusts the width of the movie poster section */
+  text-align: left; /* Aligns content to the left */
+  margin-bottom: 20px;
+}
+
+.movie-details img {
+  width: 100%; /* Full width for the poster */
+  max-width: 400px; /* Limits poster size */
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.movie-details h2 {
+  font-size: 1.5rem;
+  color: #fff;
+  margin-top: 10px;
+}
+
+/* Reviews and Form Section - Right Column */
+.reviews-section {
+  width: 55%; /* Adjusts the width of the review section */
+  padding: 20px;
+  background-color: #222;
+  border-radius: 10px;
+}
+
+.reviews-section h3 {
+  font-size: 1.4rem;
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.reviews-section ul {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.reviews-section ul li {
+  padding: 10px;
+  background-color: #333;
+  border-radius: 5px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+/* Form Styling */
+.review-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.review-form input {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.review-form button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.review-form button:hover {
+  background-color: #0056b3;
+}
+
+/* Trailer Button */
+.trailer-button {
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 1rem;
+  background-color: #28a745;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+}
+
+.trailer-button:hover {
+  background-color: #218838;
+}
+
+/* Review Button */
+.review-button {
+  background-color: #f39c12;
+  color: white;
+  padding: 5px 10px;
+  font-size: 1rem;
+  margin-top: 10px;
+  text-decoration: none;
+  border-radius: 5px;
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+}
+
+.review-button:hover {
+  background-color: #e67e22;
+}

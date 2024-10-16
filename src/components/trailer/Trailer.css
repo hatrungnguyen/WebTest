@@ -1,0 +1,8 @@
+.react-player-container {
+    height: 90vh; /* Take up 90% of the viewport height */
+    background-color: #000; /* Black background for the player */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
