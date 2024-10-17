@@ -36,9 +36,9 @@ h2 {
 .movies-grid {
   display: flex; /* Use flexbox for layout */
   flex-wrap: wrap; /* Allow items to wrap to new lines */
-  gap: 20px; /* Space between movie cards */
-  justify-content: center; /* Center align items in the grid */
-  padding: 20px; /* Padding around the grid */
+  gap: 10px; /* Space between movie cards */
+  justify-content: left; /* Center align items in the grid */
+  padding: 10px; /* Padding around the grid */
 }
 
 /* Individual Movie Card Styles */
@@ -49,6 +49,7 @@ h2 {
   padding: 10px; /* Inner padding for content */
   width: 200px; /* Fixed width for each movie card */
   transition: transform 0.2s; /* Smooth scaling effect on hover */
+  color: #0a53be;
 }
 
 .movie-card:hover {
@@ -60,4 +61,9 @@ h2 {
   width: 100%; /* Full width for images */
   height: auto; /* Maintain aspect ratio */
   border-radius: 4px; /* Rounded corners for images */
+}
+
+.movie-card h2{
+  font-size: 14px;
+  color: #fff3cd;
 }
